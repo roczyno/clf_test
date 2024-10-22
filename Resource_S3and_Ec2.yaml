@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: "This is the first CloudFormation template to create an S3 bucket and an ec2 instance."
+
+Resources:
+  RoczynoS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: roczynoBucket
+
+  RoczynoEC2:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-06b21ccaeff8cd686
