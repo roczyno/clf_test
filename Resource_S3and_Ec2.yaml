@@ -1,3 +1,4 @@
+---
 AWSTemplateFormatVersion: "2010-09-09"
 
 Description: "This is the first CloudFormation template to create an S3 bucket and an ec2 instance."
